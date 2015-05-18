@@ -13,7 +13,7 @@ NetBSD、Android 4.0(Ice Cream Sandwich)
 
 ## 树莓派镜像下载地址
 
-http://www.raspberrypi.org/  官网（速度较慢）
+http://www.raspberrypi.org/ </br> 官网（速度较慢）
 
 http://pan.baidu.com/share/home?uk=671504480#category/type=0  
 树莓派论坛提供的下载地址 （百度网盘速度较快）
