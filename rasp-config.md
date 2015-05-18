@@ -30,12 +30,11 @@
 
 ![](images/new.jpg)
 
+1.**Expand Filesystem** 扩展文件系统（同旧版）。
 
-1. **Expand Filesystem** 扩展文件系统（同旧版）。
+2.**Change User Password** 改变默认 pi 用户的密码，按回车后输入 pi 用户的新密码。
 
-2. **Change User Password** 改变默认 pi 用户的密码，按回车后输入 pi 用户的新密码。
-
-3. **Enable Boot to Desktop/Scratch** 启动时进入的环境选择。</br>
+3.**Enable Boot to Desktop/Scratch** 启动时进入的环境选择。</br>
   Console Text console, requiring login(default)</br>
    启动时进入字符控制台，需要进行登录（默认项）。</br>
   Desktop log in as user 'pi' at the graphical desktop</br>
@@ -43,32 +42,26 @@
   Scratch Start the Scratch programming environment upon boot</br>
    启动时进入 Scratch 编程环境。
 
-4. **Internationalisation Options** 国际化选项，可以更改默认语言</br>
+4.**Internationalisation Options** 国际化选项，可以更改默认语言</br>
 
-***Change Locale***
-
-语言和区域设置，建议不要改，默认英文就好。想改中文，最好选安装了中文字体再进行这步，安装中文字体的方法：</br>
+**Change Locale**：语言和区域设置，建议不要改，默认英文就好。想改中文，最好选安装了中文字体再进行这步，安装中文字体的方法：</br>
 sudo apt-get update</br>
 sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei</br>
 移动到屏幕底部，用空格键选中 zh-CN GB2312,zh-CN GB18030,zh-CN UTF-8,然后按回车，然后默认语言选中 zh-cn 然后回车。
 
-***Change Timezone***
+**Change Timezone**：设置时区，如果不进行设置，PI 的时间就显示不正常。选择 Asia（亚洲）再选择 Chongqing（重庆）即可。
 
-设置时区，如果不进行设置，PI 的时间就显示不正常。选择 Asia（亚洲）再选择 Chongqing（重庆）即可。
+**Change Keyboard Layout**：改变键盘布局
 
-***Change Keyboard Layout***
-
-改变键盘布局
-
-5. **Enable Camera**
+5.**Enable Camera**
 
 启动 PI 的摄像头模块，如果想启用，选择 Enable，禁用选择 Disable就行了。
 
-6. **Add to Rastrack**
+6.**Add to Rastrack**
 
 把你的 PI 的地理位置添加到一个全世界开启此选项的地图，建议还是不要开了，免得被跟踪。
 
-7. **Overclock**
+7.**Overclock**
 
 |SN|描述|
 |:----|:-----|
@@ -78,8 +71,9 @@ sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei</br>
 |High| 高度超频，运行在 950Mhz，核心频率 250Mhz，内存频率 450Mhz，增加电压 6|
 |Turbo| 终极超频，运行在 1000Mhz，核心频率 500Mhz，内存频率 600Mhz，增加电压 6|
 
-8. **Advanced Options**  高级设置
+8.**Advanced Options**  高级设置
 
+|SN |标准 | 描述|
 |:---|:---|:----|
 |A1| Overscan |  是否让屏幕内容全屏显示|
 |A2 |Hostname |  在网上邻居或者路由器能看到的主机名称|
@@ -95,6 +89,6 @@ sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei</br>
    1 Force 3.5mm ('headphone') jack强制输出到3.5mm模拟口</br>
    2 Force HDMI 强制输出到HDMI
 
-9. **About raspi-config** 
+9.**About raspi-config** 
 
 关于 raspi-config 的信息。
