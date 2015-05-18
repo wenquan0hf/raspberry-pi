@@ -44,9 +44,13 @@
 
 4.**Internationalisation Options** 国际化选项，可以更改默认语言</br>
 
-**Change Locale**：语言和区域设置，建议不要改，默认英文就好。想改中文，最好选安装了中文字体再进行这步，安装中文字体的方法：</br>
-sudo apt-get update</br>
-sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei</br>
+**Change Locale**：语言和区域设置，建议不要改，默认英文就好。想改中文，最好选安装了中文字体再进行这步，安装中文字体的方法：
+
+```
+sudo apt-get update
+sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei
+```
+
 移动到屏幕底部，用空格键选中 zh-CN GB2312,zh-CN GB18030,zh-CN UTF-8,然后按回车，然后默认语言选中 zh-cn 然后回车。
 
 **Change Timezone**：设置时区，如果不进行设置，PI 的时间就显示不正常。选择 Asia（亚洲）再选择 Chongqing（重庆）即可。
