@@ -8,7 +8,7 @@
 如果没有请查询一下树莓派支持的 USB 无线网卡型号，可参考以下网址：
 [http://elinux.org/RPi_VerifiedPeripherals#USB_Wi-Fi_Adapters](http://elinux.org/RPi_VerifiedPeripherals#USB_Wi-Fi_Adapters)
 
-## 修改wlan0为静态IP
+## 修改 wlan0 为静态 IP
 
 相当于设置路由器 wlan 口 IP,即我们访问路由器通常使用的:`192.168.1.1`
 
@@ -56,7 +56,7 @@ sudo vim /etc/default/hostapd
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ```
 
-### 然后编辑：`sudo vim /etc/hostapd/hostapd.conf`
+### 然后编辑`sudo vim /etc/hostapd/hostapd.conf`
 
 增加以下代码：
 
